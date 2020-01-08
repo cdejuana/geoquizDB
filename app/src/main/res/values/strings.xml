@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="tv_pregunta" />
+    <string name="fotoCiudad1" />
+    <string name="pregunta1">¿Cual es la ciudad de la imagen?</string>
+    <string name="imagen1">ciudad</string>
+    <string name="p1_madrid">Madrid</string>
+    <string name="p1_londres">Londres</string>
+    <string name="p1_paris">París</string>
+    <string name="p1_pista">Es la capital de España</string>
+    <string name="pregunta2">¿Cual es el río de la imagen?</string>
+    <string name="imagen2">rio</string>
+    <string name="p2_manzanares">Manzanares</string>
+    <string name="p2_sena">Sena</string>
+    <string name="p2_tamesis">Támesis</string>
+    <string name="p2_pista">Conocido por estar cubierto de niebla</string>
+    <string name="pregunta3">¿Cual es la montaña de la imagen?</string>
+    <string name="imagen3">montaña</string>
+    <string name="p3_everest">Everest</string>
+    <string name="p3_kilimanjaro">Kilimanjaro</string>
+    <string name="p3_teide">Teide</string>
+    <string name="p3_pista">Está en África</string>
+    <string name="acierto">¡Has acertado!</string>
+    <string name="fallo">¡Has fallado!</string>
+    <string name="bt_siguiente">Siguiente</string>
+    <string name="ultima_pregunta">Has llegado a la última pregunta</string>
+    <string name="bt_ayuda">Ayuda</string>
+    <string name="textoAyuda">La ayuda se utiliza para...</string>
+    <string name="botonPista">Pista</string>
+    <string name="bt_acceder_ap">Acceder a aplicación</string>
+    <string name="bt_valores_x_defecto">Cargar valores por defecto</string>
+</resources>
