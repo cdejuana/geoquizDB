@@ -60,7 +60,7 @@ public class PreguntasDB extends SQLiteOpenHelper {
         for (int i = 0; i < listaPreguntas.size(); i++) {
             Pregunta pregunta = listaPreguntas.get(i);
             String SQLInsert =
-                    "INSERT INTO pregunta (imagen, textoPregunta, opcionA, opcionB, opcionC," +
+                    "INSERT INTO preguntas (imagen, textoPregunta, opcionA, opcionB, opcionC," +
                     "respuesta, pista)" +
                     "VALUES (" +
                     "'" + pregunta.getImagen() +
