@@ -1,7 +1,5 @@
 package com.daw2.geoquiz;
 
-import android.widget.ImageView;
-
 public class Pregunta {
     private int id;
     private String imagen;

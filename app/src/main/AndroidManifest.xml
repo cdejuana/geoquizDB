@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Portada">
+        <activity android:name="com.daw2.geoquiz.Portada">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PistaActivity" />
-        <activity android:name=".AyudaActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.daw2.geoquiz.PistaActivity" />
+        <activity android:name="com.daw2.geoquiz.AyudaActivity" />
+        <activity android:name="com.daw2.geoquiz.MainActivity">
 
         </activity>
     </application>
