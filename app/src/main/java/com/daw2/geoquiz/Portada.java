@@ -48,9 +48,9 @@ public class Portada extends AppCompatActivity {
                         "manzanares",
                         "sena",
                         "tamesis",
-                        3,
+                        2,
                         "XXXX");
-                Pregunta pregunta3 = new Pregunta(3, "tamesis",
+                Pregunta pregunta3 = new Pregunta(3, "kilimanjaro",
                         "¿cual es la montaña de la imagen",
                         "Teide",
                         "Everest",

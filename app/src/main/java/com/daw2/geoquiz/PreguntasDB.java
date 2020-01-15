@@ -57,6 +57,8 @@ public class PreguntasDB extends SQLiteOpenHelper {
 
     public void instertarListaPreguntas(ArrayList<Pregunta> listaPreguntas){
         SQLiteDatabase db = getWritableDatabase();
+        String SQLReset = "DELETE from preguntas";
+        db.execSQL(SQLReset);
         for (int i = 0; i < listaPreguntas.size(); i++) {
             Pregunta pregunta = listaPreguntas.get(i);
             String SQLInsert =
@@ -98,5 +100,7 @@ public class PreguntasDB extends SQLiteOpenHelper {
         db.close();
         return listaPreguntas;
     }
+
+
 
 }
