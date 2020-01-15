@@ -3,6 +3,7 @@ package com.daw2.geoquiz;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -42,18 +43,7 @@ public class MainActivity extends AppCompatActivity {
         bt_pista = findViewById(R.id.bt_pista);
         indice = 0;
 
-        PreguntasDB pregdb = new PreguntasDB(getApplicationContext());
-        listaPreguntas = pregdb.cargarListaPreguntas();
-
-
-        //ESTO YA NO HACE FALTA PORQUE COGEMOS LA LISTA DE PREGUNTAS DE LA BBDD:
-        /*Pregunta preg1 = new Pregunta(R.drawable.madrid, R.string.pregunta1, R.string.p1_madrid, R.string.p1_londres, R.string.p1_paris, 1, R.string.botonPista);
-        Pregunta preg2 = new Pregunta(R.drawable.tamesis, R.string.pregunta2, R.string.p2_manzanares, R.string.p2_sena, R.string.p2_tamesis, 2, R.string.botonPista);
-        Pregunta preg3 = new Pregunta(R.drawable.kilimanjaro, R.string.pregunta3, R.string.p3_everest, R.string.p3_kilimanjaro, R.string.p3_teide, 3, R.string.botonPista);
-
-        listaPreguntas.add(preg1);
-        listaPreguntas.add(preg2);
-        listaPreguntas.add(preg3);*/
+        //SharedPreferences
 
         bt_opcionA.setOnClickListener(new View.OnClickListener() {
             @Override
